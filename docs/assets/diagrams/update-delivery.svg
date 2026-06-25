@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Update delivery flow">
+  <rect width="1200" height="720" fill="#111827"/>
+  <rect x="64" y="64" width="1072" height="592" rx="16" fill="#f8fafc"/>
+  <text x="100" y="150" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#111827">Update delivery flow</text>
+  <text x="100" y="218" font-family="Arial, sans-serif" font-size="24" fill="#374151">Optional notices and required updates</text>
+  <line x1="100" y1="260" x2="1100" y2="260" stroke="#d1d5db" stroke-width="2"/>
+  <text x="100" y="330" font-family="Arial, sans-serif" font-size="24" fill="#111827">Mermaid source is embedded in the Markdown document.</text>
+  <text x="100" y="380" font-family="Arial, sans-serif" font-size="22" fill="#4b5563">This SVG is a static fallback for environments without Mermaid rendering.</text>
+</svg>
