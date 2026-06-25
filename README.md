@@ -96,6 +96,7 @@ This repository is an architectural showcase of a commercial platform in active 
 
 ## Related
 
+- Storefront frontend: [alterega-storefront](https://github.com/egordushenko/alterega-storefront) - the public frontend of the alterega.ru storefront described above (Next.js 16, React 19, Three.js). Source-available for portfolio review.
 - Knowledge operations: [pai-methodology](https://github.com/egordushenko/pai-methodology) - the typed knowledge-base system that backs this work.
 
 ## About the Author
