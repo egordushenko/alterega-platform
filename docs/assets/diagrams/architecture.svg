@@ -1,9 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Alterega architecture">
-  <rect width="1200" height="720" fill="#111827"/>
-  <rect x="64" y="64" width="1072" height="592" rx="16" fill="#f8fafc"/>
-  <text x="100" y="150" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#111827">Alterega architecture</text>
-  <text x="100" y="218" font-family="Arial, sans-serif" font-size="24" fill="#374151">High-level product and service topology</text>
-  <line x1="100" y1="260" x2="1100" y2="260" stroke="#d1d5db" stroke-width="2"/>
-  <text x="100" y="330" font-family="Arial, sans-serif" font-size="24" fill="#111827">Mermaid source is embedded in the Markdown document.</text>
-  <text x="100" y="380" font-family="Arial, sans-serif" font-size="22" fill="#4b5563">This SVG is a static fallback for environments without Mermaid rendering.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-label="Alterega platform architecture">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="850" fill="#0f172a"/>
+  <rect x="40" y="40" width="1320" height="770" rx="24" fill="#ffffff"/>
+  <text x="80" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0f172a">Alterega platform architecture</text>
+  <line x1="80" y1="125" x2="1320" y2="125" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <text x="160" y="175" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#475569">Client side</text>
+  <text x="600" y="175" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#475569">Backend on VPS</text>
+  <text x="1040" y="175" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#475569">External services</text>
+  
+  <g>
+    <rect x="90" y="210" width="260" height="70" rx="12" fill="#e0f2fe" stroke="#94a3b8" stroke-width="2"/>
+    <text x="220" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Premiere Pro</text>
+    <text x="220" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">AEGACut and AEGA Sync</text>
+  </g>
+  
+  <g>
+    <rect x="90" y="330" width="260" height="70" rx="12" fill="#e0f2fe" stroke="#94a3b8" stroke-width="2"/>
+    <text x="220" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">After Effects</text>
+    <text x="220" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">AEGAPanel and AEGA Sync</text>
+  </g>
+  
+  <g>
+    <rect x="90" y="450" width="260" height="70" rx="12" fill="#e0f2fe" stroke="#94a3b8" stroke-width="2"/>
+    <text x="220" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Windows Desktop</text>
+    <text x="220" y="502" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">AEGACut Desktop</text>
+  </g>
+  
+  <g>
+    <rect x="560" y="210" width="260" height="70" rx="12" fill="#ecfdf5" stroke="#94a3b8" stroke-width="2"/>
+    <text x="690" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Storefront</text>
+    <text x="690" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">Next.js site</text>
+  </g>
+  
+  <g>
+    <rect x="560" y="330" width="260" height="70" rx="12" fill="#ecfdf5" stroke="#94a3b8" stroke-width="2"/>
+    <text x="690" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Licensing Service</text>
+    <text x="690" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">lic3 control plane</text>
+  </g>
+  
+  <g>
+    <rect x="560" y="450" width="260" height="70" rx="12" fill="#ecfdf5" stroke="#94a3b8" stroke-width="2"/>
+    <text x="690" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Update Distribution</text>
+    <text x="690" y="502" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">release artifacts</text>
+  </g>
+  
+  <g>
+    <rect x="1030" y="210" width="260" height="70" rx="12" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1160" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Payment Provider</text>
+    <text x="1160" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">Robokassa</text>
+  </g>
+  
+  <g>
+    <rect x="1030" y="330" width="260" height="70" rx="12" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1160" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Telegram Bot</text>
+    <text x="1160" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">delivery and support</text>
+  </g>
+  
+  <g>
+    <rect x="1030" y="450" width="260" height="70" rx="12" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1160" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">SMTP</text>
+    <text x="1160" y="502" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">secondary delivery</text>
+  </g>
+  
+  <line x1="350" y1="245" x2="560" y2="365" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="455" y="297" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">license</text>
+  
+  <line x1="350" y1="365" x2="560" y2="365" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="455" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">license</text>
+  
+  <line x1="350" y1="485" x2="560" y2="365" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="455" y="417" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">license</text>
+  
+  <line x1="350" y1="245" x2="560" y2="485" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="455" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">updates</text>
+  
+  <line x1="350" y1="365" x2="560" y2="485" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="455" y="417" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">updates</text>
+  
+  <line x1="820" y1="245" x2="1030" y2="245" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="925" y="237" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">checkout</text>
+  
+  <line x1="1030" y1="245" x2="820" y2="365" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="925" y="297" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">confirmation</text>
+  
+  <line x1="820" y1="365" x2="1030" y2="365" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="925" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">delivery</text>
+  
+  <line x1="820" y1="365" x2="1030" y2="485" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="925" y="417" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">email</text>
+
 </svg>

@@ -1,9 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="License lifecycle">
-  <rect width="1200" height="720" fill="#111827"/>
-  <rect x="64" y="64" width="1072" height="592" rx="16" fill="#f8fafc"/>
-  <text x="100" y="150" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#111827">License lifecycle</text>
-  <text x="100" y="218" font-family="Arial, sans-serif" font-size="24" fill="#374151">Trial, activation, revalidation, recovery</text>
-  <line x1="100" y1="260" x2="1100" y2="260" stroke="#d1d5db" stroke-width="2"/>
-  <text x="100" y="330" font-family="Arial, sans-serif" font-size="24" fill="#111827">Mermaid source is embedded in the Markdown document.</text>
-  <text x="100" y="380" font-family="Arial, sans-serif" font-size="22" fill="#4b5563">This SVG is a static fallback for environments without Mermaid rendering.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-label="License lifecycle">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="850" fill="#0f172a"/>
+  <rect x="40" y="40" width="1320" height="770" rx="24" fill="#ffffff"/>
+  <text x="80" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0f172a">License lifecycle</text>
+  <line x1="80" y1="125" x2="1320" y2="125" stroke="#cbd5e1" stroke-width="2"/>
+  
+  
+  <g>
+    <rect x="90" y="350" width="150" height="65" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="165" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">none</text>
+  </g>
+  
+  <g>
+    <rect x="290" y="350" width="150" height="65" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="365" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">trial</text>
+  </g>
+  
+  <g>
+    <rect x="490" y="350" width="170" height="65" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="575" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">activated</text>
+  </g>
+  
+  <g>
+    <rect x="710" y="350" width="190" height="65" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="805" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">revalidating</text>
+  </g>
+  
+  <g>
+    <rect x="960" y="260" width="150" height="65" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1035" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">expired</text>
+  </g>
+  
+  <g>
+    <rect x="960" y="440" width="150" height="65" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1035" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">revoked</text>
+  </g>
+  
+  <g>
+    <rect x="1170" y="350" width="150" height="65" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1245" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">recovered</text>
+  </g>
+  
+  <line x1="240" y1="382" x2="290" y2="382" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="265" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">start</text>
+  
+  <line x1="440" y1="382" x2="490" y2="382" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="465" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">purchase</text>
+  
+  <line x1="660" y1="382" x2="710" y2="382" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="685" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">check</text>
+  
+  <line x1="900" y1="368" x2="960" y2="292" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="930" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">ended</text>
+  
+  <line x1="900" y1="396" x2="960" y2="472" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="930" y="426" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">denied</text>
+  
+  <line x1="1110" y1="292" x2="1170" y2="368" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1140" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">review</text>
+  
+  <line x1="1110" y1="472" x2="1170" y2="392" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1140" y="424" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">review</text>
+  
+  <line x1="1170" y1="382" x2="660" y2="382" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="915" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">restore</text>
+
 </svg>

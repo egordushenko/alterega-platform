@@ -1,9 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Payment webhook flow">
-  <rect width="1200" height="720" fill="#111827"/>
-  <rect x="64" y="64" width="1072" height="592" rx="16" fill="#f8fafc"/>
-  <text x="100" y="150" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#111827">Payment webhook flow</text>
-  <text x="100" y="218" font-family="Arial, sans-serif" font-size="24" fill="#374151">Robokassa confirmation to delivery</text>
-  <line x1="100" y1="260" x2="1100" y2="260" stroke="#d1d5db" stroke-width="2"/>
-  <text x="100" y="330" font-family="Arial, sans-serif" font-size="24" fill="#111827">Mermaid source is embedded in the Markdown document.</text>
-  <text x="100" y="380" font-family="Arial, sans-serif" font-size="22" fill="#4b5563">This SVG is a static fallback for environments without Mermaid rendering.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-label="Payment webhook flow">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="850" fill="#0f172a"/>
+  <rect x="40" y="40" width="1320" height="770" rx="24" fill="#ffffff"/>
+  <text x="80" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0f172a">Payment webhook flow</text>
+  <line x1="80" y1="125" x2="1320" y2="125" stroke="#cbd5e1" stroke-width="2"/>
+  
+  
+  <g>
+    <rect x="90" y="300" width="180" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="180" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Buyer</text>
+  </g>
+  
+  <g>
+    <rect x="310" y="300" width="200" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="410" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Storefront</text>
+  </g>
+  
+  <g>
+    <rect x="550" y="300" width="220" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="660" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Checkout session</text>
+  </g>
+  
+  <g>
+    <rect x="810" y="300" width="180" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="900" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Robokassa</text>
+  </g>
+  
+  <g>
+    <rect x="1030" y="220" width="220" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1140" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Verify callback</text>
+  </g>
+  
+  <g>
+    <rect x="1030" y="390" width="220" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1140" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Issue access</text>
+  </g>
+  
+  <g>
+    <rect x="1030" y="560" width="220" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1140" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Deliver message</text>
+  </g>
+  
+  <line x1="270" y1="335" x2="310" y2="335" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="290" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">start</text>
+  
+  <line x1="510" y1="335" x2="550" y2="335" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="530" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">create</text>
+  
+  <line x1="770" y1="335" x2="810" y2="335" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="790" y="327" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">pay</text>
+  
+  <line x1="990" y1="335" x2="1030" y2="255" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1010" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">callback</text>
+  
+  <line x1="1140" y1="290" x2="1140" y2="390" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1140" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">valid</text>
+  
+  <line x1="1140" y1="460" x2="1140" y2="560" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1140" y="502" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">notify</text>
+
 </svg>

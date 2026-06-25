@@ -1,9 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Infrastructure topology">
-  <rect width="1200" height="720" fill="#111827"/>
-  <rect x="64" y="64" width="1072" height="592" rx="16" fill="#f8fafc"/>
-  <text x="100" y="150" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#111827">Infrastructure topology</text>
-  <text x="100" y="218" font-family="Arial, sans-serif" font-size="24" fill="#374151">Reverse proxy, services, storage, firewall</text>
-  <line x1="100" y1="260" x2="1100" y2="260" stroke="#d1d5db" stroke-width="2"/>
-  <text x="100" y="330" font-family="Arial, sans-serif" font-size="24" fill="#111827">Mermaid source is embedded in the Markdown document.</text>
-  <text x="100" y="380" font-family="Arial, sans-serif" font-size="22" fill="#4b5563">This SVG is a static fallback for environments without Mermaid rendering.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-label="Infrastructure topology">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="850" fill="#0f172a"/>
+  <rect x="40" y="40" width="1320" height="770" rx="24" fill="#ffffff"/>
+  <text x="80" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0f172a">Infrastructure topology</text>
+  <line x1="80" y1="125" x2="1320" y2="125" stroke="#cbd5e1" stroke-width="2"/>
+  
+  
+  <g>
+    <rect x="90" y="360" width="170" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="175" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Internet</text>
+  </g>
+  
+  <g>
+    <rect x="320" y="360" width="210" height="70" rx="12" fill="#e0f2fe" stroke="#94a3b8" stroke-width="2"/>
+    <text x="425" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Nginx</text>
+    <text x="425" y="412" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">reverse proxy</text>
+  </g>
+  
+  <g>
+    <rect x="610" y="220" width="210" height="70" rx="12" fill="#ecfdf5" stroke="#94a3b8" stroke-width="2"/>
+    <text x="715" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Storefront</text>
+    <text x="715" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">service</text>
+  </g>
+  
+  <g>
+    <rect x="610" y="360" width="210" height="70" rx="12" fill="#ecfdf5" stroke="#94a3b8" stroke-width="2"/>
+    <text x="715" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Licensing</text>
+    <text x="715" y="412" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">service</text>
+  </g>
+  
+  <g>
+    <rect x="610" y="500" width="210" height="70" rx="12" fill="#ecfdf5" stroke="#94a3b8" stroke-width="2"/>
+    <text x="715" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Bot worker</text>
+    <text x="715" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">delivery</text>
+  </g>
+  
+  <g>
+    <rect x="920" y="290" width="210" height="70" rx="12" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1025" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">PostgreSQL</text>
+    <text x="1025" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">state</text>
+  </g>
+  
+  <g>
+    <rect x="920" y="430" width="210" height="70" rx="12" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1025" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Local store</text>
+    <text x="1025" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">selected data</text>
+  </g>
+  
+  <g>
+    <rect x="1160" y="360" width="170" height="70" rx="12" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1245" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">External</text>
+    <text x="1245" y="412" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">providers</text>
+  </g>
+  
+  <line x1="260" y1="395" x2="320" y2="395" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="290" y="387" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">HTTPS</text>
+  
+  <line x1="530" y1="380" x2="610" y2="255" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="570" y="309.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">route</text>
+  
+  <line x1="530" y1="395" x2="610" y2="395" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="570" y="387" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">route</text>
+  
+  <line x1="530" y1="410" x2="610" y2="535" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="570" y="464.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">route</text>
+  
+  <line x1="820" y1="395" x2="920" y2="325" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="870" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">data</text>
+  
+  <line x1="820" y1="255" x2="920" y2="465" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="870" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">data</text>
+  
+  <line x1="820" y1="395" x2="1160" y2="395" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="990" y="387" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">payment and delivery</text>
+
 </svg>

@@ -1,9 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Purchase to activation">
-  <rect width="1200" height="720" fill="#111827"/>
-  <rect x="64" y="64" width="1072" height="592" rx="16" fill="#f8fafc"/>
-  <text x="100" y="150" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#111827">Purchase to activation</text>
-  <text x="100" y="218" font-family="Arial, sans-serif" font-size="24" fill="#374151">Storefront, payment, licensing, delivery</text>
-  <line x1="100" y1="260" x2="1100" y2="260" stroke="#d1d5db" stroke-width="2"/>
-  <text x="100" y="330" font-family="Arial, sans-serif" font-size="24" fill="#111827">Mermaid source is embedded in the Markdown document.</text>
-  <text x="100" y="380" font-family="Arial, sans-serif" font-size="22" fill="#4b5563">This SVG is a static fallback for environments without Mermaid rendering.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-label="Purchase to license to activation">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="850" fill="#0f172a"/>
+  <rect x="40" y="40" width="1320" height="770" rx="24" fill="#ffffff"/>
+  <text x="80" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0f172a">Purchase to license to activation</text>
+  <line x1="80" y1="125" x2="1320" y2="125" stroke="#cbd5e1" stroke-width="2"/>
+  
+  
+  <g>
+    <rect x="90" y="260" width="180" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="180" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Buyer</text>
+  </g>
+  
+  <g>
+    <rect x="310" y="260" width="180" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="400" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Storefront</text>
+  </g>
+  
+  <g>
+    <rect x="530" y="260" width="180" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="620" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Payment</text>
+    <text x="620" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">pipeline</text>
+  </g>
+  
+  <g>
+    <rect x="750" y="260" width="180" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="840" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Robokassa</text>
+  </g>
+  
+  <g>
+    <rect x="970" y="260" width="180" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1060" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Licensing</text>
+    <text x="1060" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">service</text>
+  </g>
+  
+  <g>
+    <rect x="1190" y="260" width="130" height="70" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1255" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Product</text>
+    <text x="1255" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">build</text>
+  </g>
+  
+  <g>
+    <rect x="970" y="430" width="180" height="70" rx="12" fill="#fef3c7" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1060" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Telegram</text>
+    <text x="1060" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#0f172a">SMTP</text>
+  </g>
+  
+  <line x1="270" y1="295" x2="310" y2="295" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="290" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">select</text>
+  
+  <line x1="490" y1="295" x2="530" y2="295" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">checkout</text>
+  
+  <line x1="710" y1="295" x2="750" y2="295" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="730" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">pay</text>
+  
+  <line x1="930" y1="295" x2="970" y2="295" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="950" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">confirm</text>
+  
+  <line x1="1150" y1="295" x2="1190" y2="295" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1170" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">activate</text>
+  
+  <line x1="1060" y1="330" x2="1060" y2="430" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1060" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">deliver</text>
+  
+  <line x1="1190" y1="330" x2="1150" y2="430" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="1170" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">state</text>
+
 </svg>
