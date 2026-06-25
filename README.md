@@ -4,7 +4,7 @@
 ![Stack](https://img.shields.io/badge/stack-Python_TS_Adobe_CEP_Electron-informational)
 ![Built by](https://img.shields.io/badge/built_by-solo_engineer-blueviolet)
 
-Alterega is a commercial ecosystem of video-editing tools for Adobe Premiere Pro and After Effects. The platform comprises three product lines across five builds: AEGACut plugin and desktop, AEGAPanel, AEGA Sync for Premiere Pro, and AEGA Sync for After Effects. It also includes a central licensing service, a payment pipeline, a storefront, and Telegram-based delivery and support. The system has been operated by a single engineer since 2026.
+Alterega is a commercial ecosystem of video-editing tools for Adobe Premiere Pro and After Effects. The platform comprises three product lines across five builds: AEGACut plugin and desktop, AEGAPanel, AEGA Sync for Premiere Pro, and AEGA Sync for After Effects. It also includes a central licensing service, a payment pipeline, a storefront, and Telegram-based delivery and support. The system has been in continuous production, operated by a single engineer.
 
 ## Live Links
 
