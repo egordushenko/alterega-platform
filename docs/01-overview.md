@@ -8,7 +8,7 @@ The backend side is centered on a shared licensing service known internally as l
 
 The Adobe products run inside CEP panels. That environment shapes many engineering choices: JavaScript in the panel, ExtendScript in the host bridge, and Python sidecars where heavier processing is needed. AEGACut Desktop uses Electron and Python workers to bring the same general cleanup model into a standalone Windows runtime. These products share operational concerns but cannot share every runtime assumption because host APIs, packaging formats, and update surfaces differ.
 
-The platform has been operated since 2026 based on the earliest commit date found across the source repositories reviewed for this showcase. This repository does not publish source code, customer data, payment details, database schema, or private operational configuration. It documents the architecture and the engineering decisions at a level suitable for technical review.
+This repository does not publish source code, customer data, payment details, database schema, or private operational configuration. It documents the architecture and the engineering decisions at a level suitable for technical review.
 
 ## Operating Model
 
